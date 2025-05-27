@@ -7,12 +7,12 @@ void main() {
   // Output: 5
   // Explanation: 5 is the first element that repeats
 
-  var arr = {10, 5, 3, 4, 3, 5, 6};
+  List arr = [10, 5, 3, 4, 3, 5, 6];
 
   firstRepeating(arr);
 }
 
-firstRepeating(Set arr) {
+firstRepeating(List arr) {
   Set<int> seen = {};
   int? firstRepeating;
 
